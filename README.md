@@ -32,7 +32,7 @@
    npm install vue-router@4
    ```
 
-7. Crear un archivo `router.js` en la carpeta `src` y configurar las rutas
+7. Crear un archivo `index.js` en la carpeta `src/router` y configurar las rutas
 
    ```javascript
    import { createRouter, createWebHistory } from 'vue-router';
@@ -104,4 +104,6 @@
      </script>
      ```
 
-10. Probar la aplicación accediendo a las rutas `/` y `/about`
+10. Modificar `App.vue` para incluir el `<router-view />`
+
+11. Probar la aplicación accediendo a las rutas `/` y `/about`
